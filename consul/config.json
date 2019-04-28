@@ -1,0 +1,11 @@
+{
+  "ca_file": "/etc/tls/consul-agent-ca.pem",
+  "cert_file": "/etc/tls/dc1-server-consul-0.pem",
+  "key_file": "/etc/tls/dc1-server-consul-0-key.pem",
+  "verify_incoming": true,
+  "verify_outgoing": true,
+  "verify_server_hostname": true,
+  "ports": {
+    "https": 8443
+  }
+}
